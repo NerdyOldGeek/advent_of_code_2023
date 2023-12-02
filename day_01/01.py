@@ -1,5 +1,3 @@
-
-
 cal_vals = []
 num_digits = '123456789'
 
