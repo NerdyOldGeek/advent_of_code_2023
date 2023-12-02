@@ -37,7 +37,7 @@ def get_first_last_numbers(d):
     return digits
     
 
-with open('input') as file:
+with open('./day_01/input') as file:
     list_of_lines = file.readlines()
     for line in list_of_lines:
         data = get_digits(line)

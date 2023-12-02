@@ -8,7 +8,7 @@ def get_digits(line):
             digits.append(char)
     return digits
 
-with open('input') as file:
+with open('./day_01/input') as file:
     file.seek(0)
     list_of_lines = file.readlines()
     for line in list_of_lines:
